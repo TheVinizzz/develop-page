@@ -5,7 +5,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'cat-home': "url('/src/assets/cat-home.jpg')",
+      })
+    },
   },
   variants: {
     extend: {},
