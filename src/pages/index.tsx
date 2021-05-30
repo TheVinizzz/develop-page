@@ -6,10 +6,10 @@ export default function Home() {
 	return (
 		<div>
 			<div className="home-background overflow-hidden">
-				<div className="container mx-auto h-full px-2 md:px-0">
+				<div className="container mx-auto h-full px-2 md:px-32 md:pb-10">
 					<TopBar />
 					<NavBar />
-					<div className="h-full max-w-5xl pt-40 px-8 md:px-0">
+					<div className="h-full max-w-5xl pt-24 px-8 md:px-0">
 						<h1 className="text-white font-bold text-2xl md:text-6xl self-center">
 							"Se você passar tempo com os animais, corre o risco de se tornar uma pessoa melhor"
 						</h1>
