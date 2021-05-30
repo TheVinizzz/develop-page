@@ -3,7 +3,7 @@ import ButtonIcon from "../ButtonIcon";
 
 export default function NavBar() {
     return (
-        <div className="w-full h-16 bg-gray-300 rounded-lg flex justify-between shadow-2xl">
+        <div className="w-full h-14 md:h-16 bg-gray-300 rounded-lg flex justify-between shadow-2xl">
             <div className="flex">
                 <div className="mx-10 self-center">
                     <ButtonSimple>Home</ButtonSimple>
